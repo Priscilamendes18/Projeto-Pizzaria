@@ -1,11 +1,14 @@
 # Projeto-Pizzaria
 
-Com certeza! Aqui está o conteúdo estruturado em Markdown, pronto para você copiar e colar no seu arquivo README.md do GitHub.
-
-🍕 Proj.Pizzaria_Pri: Padrões de Projeto Estruturais
+## 🍕 Proj.Pizzaria_Pri: Padrões de Projeto Estruturais
 Este repositório contém uma implementação prática de dois padrões de projeto estruturais (Adapter e Bridge) aplicados a um sistema de gerenciamento de pizzaria desenvolvido em Node.js.
 
-🛠️ Padrões Implementados
+* Priscila de Carvalho Mendes
+* RA: 2171392511039
+* Desenvolvimento Web III
+* Professor: VINICIUS HELTAI
+
+### 🛠️ Padrões Implementados
 O projeto está dividido em duas abordagens principais para resolver problemas comuns de arquitetura de software:
 
 1. Adapter (Adaptador)
@@ -32,7 +35,7 @@ As pizzas (Brotinho, Tradicional, Grande) apenas referenciam um objeto do tipo B
 
 Isso permite mudar o tipo de borda dinamicamente sem alterar a classe da pizza.
 
-📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto
 Plaintext
 Proj.Pizzaria_Pri/
 ├── Adapter/
@@ -40,25 +43,3 @@ Proj.Pizzaria_Pri/
 ├── Bridge/
 │   └── Bridge.js       # Implementação do padrão Bridge
 └── README.md           # Documentação do projeto
-🚀 Como Executar
-Pré-requisitos: Ter o Node.js instalado.
-
-Clone o repositório:
-
-Bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Execute o exemplo de Adapter:
-
-Bash
-node Adapter/Adapter.js
-Execute o exemplo de Bridge:
-
-Bash
-node Bridge/Bridge.js
-📝 Detalhes Técnicos
-Validações de Sabores
-Ambas as implementações garantem a integridade do pedido:
-
-No Adapter: Verificação feita dentro do método montarPizza() do adaptador.
-
-No Bridge: Verificação feita através do método validarSabores() presente nas abstrações refinadas (tamanhos de pizza).
